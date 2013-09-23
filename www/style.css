@@ -214,6 +214,11 @@ small { color:#ababab; font-size:11px; padding:0; }
 	float: left;
 }
 
+.left-content-2 {
+	width: 205px;
+	float: left;
+}
+
 .right-content {
 	float: left;
 	margin: 0 0 0 20px;	
@@ -234,9 +239,44 @@ small { color:#ababab; font-size:11px; padding:0; }
 	margin-left: 30px;
 }
 
+.right-content-2 {
+	float: left;
+	margin: 0 0 0 20px;	
+	position: relative;
+	width: 740px;
+	color: #555;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.right-content-2 h3 {
+	margin: 0 0 .5em;
+	color: #555;
+}
+
+.right-content-2 li {
+	list-style-type: circle;
+	margin-left: 30px;
+}
+
+.right-content table, td {
+	border: 1px solid black;
+}
+
+.right-content table td {
+	padding: 0 30px 0 30px;
+}
+
 .features {
 	float: left;
 	margin: 0 0 0 20px;	
+	position: relative;
+	width: 300px;
+}
+
+.features-2 {
+	float: left;
+	margin: 0 0 20px 0px;	
 	position: relative;
 	width: 300px;
 }
